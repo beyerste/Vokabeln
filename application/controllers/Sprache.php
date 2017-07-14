@@ -16,6 +16,7 @@ class Sprache extends CI_Controller {
 	{
 		$data['sprachen'] = $this->sprache_model->get_sprachen();
 		$data['title'] = 'Vokabeln';
+		$data['Version'] = '0.0.1'
 		$data['copyright'] = '(c) 2017 by Stefan Beyer';
 		$data['heading'] = 'Sprachen';
 
